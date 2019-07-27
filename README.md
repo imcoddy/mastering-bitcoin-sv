@@ -1,60 +1,18 @@
-郎咸平说过：比特币白给我都不要
+# Mastering Bitcoin SV
 
-巴菲特：比特币是泡沫，不是一种能够生产价值的资产
+比特币诞生至今，已经过了十个年头。在此期间，因比特币几年的[扩容争议](http://1bsv.cn/%e6%af%94%e7%89%b9%e5%b8%81%e6%89%a9%e5%ae%b9%e7%ba%b7%e4%ba%89/)无果，比特币分叉为  Bitcoin Coin 和 Bitcoin Cash，随后又分叉为 Bitcoin ABC 和 Bitcoin SV。
 
-紫色的股：为什么说比特币是典型的泡沫
+尽管比特币的 Ticker 多次变更，Bitcoin SV 即原版的比特币，其旨在恢复原始比特币协议，保持其协议稳定且允许其大规模扩容。比特币SV将秉承维护中本聪在2008年白皮书《[比特币：一个点对点电子现金系统](https://bitcoinsv.io/bitcoin/)》中所阐述的愿景。
 
-......
+![bitcon-forks](resources/bitcoin-forks.png)
 
-也有人说，区块链是最伟大的发明，堪比互联网。
+中本聪所设计的比特币其实一直没有完全实现，比特币还有着无限的潜力有待发掘。本项目旨在让更多人理解中本聪的设计，更好地迎接【[Bitcoin SV 创世纪](https://bitcoinsv.io/2019/04/17/the-roadmap-to-genesis-part-1/)】升级计划的到来。
 
-到底比特币是什么？如何判断？难道我们能做的就是人云亦云？
+> “比特币的本质是，第0.1版一经发布，其核心设计即已固定，并在整个生命周期中保持不变。” ——中本聪（Satoshi Nakamoto)
 
-如何能有自己的独立判断？
+本书 Fork 自[《精通比特币》云天明的中文译本](https://github.com/tianmingyun/MasterBitcoin2CN)，并参考 [Mastering Bitcoin - Second Edition](https://github.com/bitcoinbook/bitcoinbook/) 原文进行整理。对于原文及译者的辛勤劳动，在此一并致谢。
 
-每个人都有自己的“全知遮蔽”，就像每个人都看不见自己的后脑勺一样。在自己的视野内，在自己的舒适区，如鱼得水，但是就是这种感觉最容易让自己以为“自己以为的”就是客观事实。
-
-正确的态度是研究搞懂，之后才有资格做判断。
-
-这本书就能帮助您全面了解比特币，而且有助于理解其他数字货币。
-
-本书翻译过程中得到了higer（区块链研究社社长）的支持和鼓励，特此致谢。
-
-本书部分段落内容参考摘录了《精通比特币》知笔墨版本，在此特别声明并致谢。
-
-本书附录1比特币白皮书全文摘自巴比特 《比特币白皮书：一种点对点的电子现金系统》，在此特别声明并致谢。
-
-以下朋友对本书做出巨大贡献：
-
-菜菜子：翻译了英文版序言，第二版更新说明，词汇表，附录2交易脚本语言操作符，常量和符号等章节
-
-柴春燕和格林怪物：联合翻译附录隔离见证部分
-
-Robbie_英语翻译：第4章审核校对
-
-吴迪：第5章，第9章审核校对
-
-格林怪物：第6章审核校对
-
-阿龙：第7章，第11章审核校对
-
-阮立志和冯锦炜：第10章审核校对
-
-琳：第12章审核校对
-
-黄豆：封面封底扉页以及其他内容设计
-
-特别感谢赵斌锋，在本书最后出版前期校对过程中付出了巨大的努力，修正了一些瑕疵。
-
-由于时间原因和个人水平能力原因，初稿中有许多格式和理解翻译错误。以上各位朋友在审核校过程中修正了初稿中许多错误，甚至部分章节兼职了翻译工作，在此表示致歉和感谢。
-
-即便如此，当前版本还可能存在部分错误，欢迎读者在github上提交勘误，也可以发至邮箱：yuntianming@aliyun.com
-
-乔延宏 2017.11.11
-
-本书经过多方努力，历时一年，终于付梓，京东购买链接：
-
-https://item.jd.com/12620946.html
+本书将修正部分偏离比特币原始设计的内容，向读者展示中本聪的设计的精妙之处。欢迎读者在 github 上提交勘误，也可以发至邮箱 imcoddy@gmail.com 反馈。
 
 ## Mastering Bitcoin - Second Edition 版权说明
 
@@ -62,7 +20,7 @@ The [second_edition](https://github.com/bitcoinbook/bitcoinbook/tree/second_edi
 
 The tag [second_edition_print_1](https://github.com/bitcoinbook/bitcoinbook/releases/tag/second_edition_print_1), corresponds to the first print of the second edition.
 
-[![Creative Commons License](http://upload-images.jianshu.io/upload_images/1785959-177b27ea70947c7d?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)](http://creativecommons.org/licenses/by-nc-nd/4.0/) 
+[![Creative Commons License](http://upload-images.jianshu.io/upload_images/1785959-177b27ea70947c7d?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
 Mastering Bitcoin - Second Edition by [Andreas M. Antonopoulos LLC](https://antonopoulos.com/) is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 It is expected that the second edition will be released under a CC-BY-SA license within a year of publication.
