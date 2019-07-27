@@ -2,13 +2,14 @@
 
 比特币诞生至今，已经过了十个年头。在此期间，因比特币几年的[扩容争议](http://1bsv.cn/%e6%af%94%e7%89%b9%e5%b8%81%e6%89%a9%e5%ae%b9%e7%ba%b7%e4%ba%89/)无果，比特币分叉为  Bitcoin Coin 和 Bitcoin Cash，随后又分叉为 Bitcoin ABC 和 Bitcoin SV。
 
-尽管比特币的 Ticker 多次变更，Bitcoin SV 即原版的比特币，其旨在恢复原始比特币协议，保持其协议稳定且允许其大规模扩容。比特币SV将秉承维护中本聪在2008年白皮书《[比特币：一个点对点电子现金系统](https://bitcoinsv.io/bitcoin/)》中所阐述的愿景。
+尽管比特币的 Ticker 多次变更，Bitcoin SV，即原版的比特币，旨在恢复原始比特币协议，保持其协议稳定且允许其大规模扩容。Bitcoin SV 将秉承维护中本聪在2008年白皮书《[比特币：一个点对点电子现金系统](https://bitcoinsv.io/bitcoin/)》中所阐述的愿景。
 
 ![bitcon-forks](resources/bitcoin-forks.png)
 
 中本聪所设计的比特币其实一直没有完全实现，比特币还有着无限的潜力有待发掘。本项目旨在让更多人理解中本聪的设计，更好地迎接【[Bitcoin SV 创世纪](https://bitcoinsv.io/2019/04/17/the-roadmap-to-genesis-part-1/)】升级计划的到来。
 
-> “比特币的本质是，第0.1版一经发布，其核心设计即已固定，并在整个生命周期中保持不变。” ——中本聪（Satoshi Nakamoto)
+> “比特币的本质是，第0.1版一经发布，其核心设计即已固定，并在整个生命周期中保持不变。”
+- <cite>中本聪（Satoshi Nakamoto)</cite>
 
 本书 Fork 自[《精通比特币》云天明的中文译本](https://github.com/tianmingyun/MasterBitcoin2CN)，并参考 [Mastering Bitcoin - Second Edition](https://github.com/bitcoinbook/bitcoinbook/) 原文进行整理。对于原文及译者的辛勤劳动，在此一并致谢。
 
