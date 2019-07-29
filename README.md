@@ -4,7 +4,7 @@
 
 尽管比特币的 Ticker 多次变更，Bitcoin SV，即原版的比特币，旨在恢复原始比特币协议，保持其协议稳定且允许其大规模扩容。Bitcoin SV 将秉承维护中本聪在2008年白皮书《[比特币：一个点对点电子现金系统](https://bitcoinsv.io/bitcoin/)》中所阐述的愿景。
 
-![bitcon-forks](resources/bitcoin-forks.png)
+![bitcon-forks](images/bitcoin-forks.png)
 
 中本聪所设计的比特币其实一直没有完全实现，比特币还有着无限的潜力有待发掘。本项目旨在让更多人理解中本聪的设计，更好地迎接 2020 年 2 月的「[Genesis](https://bitcoinsv.io/2019/04/17/the-roadmap-to-genesis-part-1/)」升级计划的到来。
 

@@ -1,12 +1,11 @@
 # Summary
 
 * [简介](README.md)
-<!-- * [中文版序言](cn-preface.md) -->
 * [编者序](trans-preface.md)
 * [序言](preface.md)
 * [第一章介绍](ch01.md)
 * [第二章比特币原理](ch02.md)
-* [第三章比特币核心](ch03.md)
+* [第三章比特币客户端](ch03.md)
 * [第四章密钥和地址](ch04.md)
 * [第五章钱包](ch05.md)
 * [第六章交易](ch06.md)
@@ -24,5 +23,3 @@
 * [附录4：pycoin库、实用密钥程序ku和交易程序tx](appdx-pycoin.md)
 * [附录5 交易脚本的操作符、常量和符号](appdx-scriptops.md)
 * [附录6 比特币白皮书](appdx-bitcoinwhitepaper.md)
-<!-- * [附录7 隔离见证](appdx-segwit.md) -->
-<!-- * [附录8 染色币](appdx-colored_coins.md) -->
