@@ -2,7 +2,7 @@
 
 * [简介](README.md)
 <!-- * [中文版序言](cn-preface.md) -->
-<!-- * [译者序](trans-preface.md) -->
+* [编者序](trans-preface.md)
 * [序言](preface.md)
 * [第一章介绍](ch01.md)
 * [第二章比特币原理](ch02.md)
