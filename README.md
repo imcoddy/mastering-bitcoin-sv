@@ -1,3 +1,6 @@
+---
+showToc: false
+---
 # Mastering Bitcoin SV - Back to Genesis
 
 比特币诞生至今，已经过了十个年头。在此期间，因比特币几年的[扩容争议](http://1bsv.cn/%e6%af%94%e7%89%b9%e5%b8%81%e6%89%a9%e5%ae%b9%e7%ba%b7%e4%ba%89/)无果，比特币分叉为  Bitcoin Coin 和 Bitcoin Cash，随后又分叉为 Bitcoin ABC 和 Bitcoin SV。
@@ -25,6 +28,20 @@ Bitcoin SV 正在成为比特币应有的样子，愿这条路上你也能一起
 [@imcoddy](https://github.com/imcoddy)
 
 20190729
+
+## 编写指南
+
+本书可用 Gitbook 编译生成网页版浏览阅读，命令如下：
+
+```
+$ npm install -g gitbook-cli
+$ gitbook install
+$ gitbook serve
+```
+
+随后可打开 [http://localhost:4000/](http://localhost:4000/) 浏览。
+
+如需编辑，可选择 [Typora](https://typora.io/) 或者其它的 Markdown 编辑器进行修改。
 
 ## 提交流程
 
