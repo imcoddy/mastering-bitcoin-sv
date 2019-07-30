@@ -13,7 +13,7 @@
 
 本书 Fork 自[《精通比特币》云天明的中文译本](https://github.com/tianmingyun/MasterBitcoin2CN)，并参考 [Mastering Bitcoin - Second Edition](https://github.com/bitcoinbook/bitcoinbook/) 原文进行整理。对于原文及译者的辛勤劳动，在此一并致谢。
 
-本项目为「[重返创世纪](https://github.com/imcoddy/mastering-bitcoin-sv)」计划，将修正书中部分偏离比特币原始设计的内容，向读者展示中本聪设计的比特币中鲜为人知的精妙之处。欢迎读者在 GitHub 上提交勘误，也可以发至邮箱 imcoddy@gmail.com 反馈。
+本项目为「[重返创世纪](https://github.com/imcoddy/mastering-bitcoin-sv)」计划，将修正书中部分偏离比特币原始设计的内容，向读者展示中本聪设计的比特币中鲜为人知的精妙之处。
 
 
 昨天，Bitcoin SV 的主网上打出了 256M 的[区块](https://blockchair.com/bitcoin-sv/block/593164)，正如当年中本聪所说的那样：
@@ -26,10 +26,32 @@ Bitcoin SV 正在成为比特币应有的样子，愿这条路上你也能一起
 
 20190729
 
+## 提交流程
+
+本项目欢迎读者直接在 GitHub 上提交勘误，也可以发至邮箱 imcoddy@gmail.com 反馈。
+
+请先将本项目 fork 至自己的 GitHub 帐户里面，并添加本项目为 `upstream` 以便能及时获取最近的更新：
+
+
+```
+$ git remote add upstream https://github.com/imcoddy/mastering-bitcoin-sv.git
+```
+
+每次编辑时从 `develop` 新建 `feature/summary-of-modification` 的新分支提交 Pullrequest。具体的操作方式如下：
+
+
+```
+$ git checkout develop
+$ git pull upstream develop
+$ git checkout -b feature/new-summary-of-modification (自行根据需要修改为合适的名称)
+```
+
+提交时直接将 `feature/summary-of-modification` 向 `imcoddy/mastering-bitcoin-sv` 的 `develop` 分支提交 Pullrequest 即可。
+
 ## Mastering Bitcoin - Second Edition 版权说明
 
 The tags, [second_edition_print_1](https://github.com/bitcoinbook/bitcoinbook/releases/tag/second_edition_print_1) and [second_edition_print2](https://github.com/bitcoinbook/bitcoinbook/releases/tag/second_edition_print2), correspond to the first (June 8th, 2017) and second (July 20th, 2017) print of Mastering Bitcoin (Second Edition), as published by O'Reilly Media.
 
-[![Creative Commons License](https://camo.githubusercontent.com/e170e276291254896665fa8f612b99fe5b7dd005/68747470733a2f2f692e6372656174697665636f6d6d6f6e732e6f72672f6c2f62792d73612f342e302f38387833312e706e67)](http://creativecommons.org/licenses/by-sa/4.0/)  
+[![Creative Commons License](https://camo.githubusercontent.com/e170e276291254896665fa8f612b99fe5b7dd005/68747470733a2f2f692e6372656174697665636f6d6d6f6e732e6f72672f6c2f62792d73612f342e302f38387833312e706e67)](http://creativecommons.org/licenses/by-sa/4.0/)
 
 Mastering Bitcoin - Second Edition by [Andreas M. Antonopoulos LLC](https://antonopoulos.com/) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
